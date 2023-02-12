@@ -1,0 +1,62 @@
+.dropdown {
+    position: relative;
+}
+
+.profile {
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0;
+}
+
+/* .dropdown {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 8px;
+} */
+
+.menutab {
+    background: #2196f3;
+    display: flex;
+    position: absolute;
+    top: 125%;
+    right: 1%;
+    width: 120px;
+    height: 150px;
+    padding: 8px;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 25px;
+    color: white;  
+    z-index: 1;
+}
+
+.menutab ul {
+    padding: 5px;
+}
+
+.menutab li {
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease;
+}
+
+.menutab li div{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease;
+    color: white;
+}
+
+
+.menutab li:hover {
+    background-color: #ffffff;
+    color: #2196f3;
+}
+
+.menutab li div:hover {
+    background-color: #ffffff;
+    color: #2196f3;
+}

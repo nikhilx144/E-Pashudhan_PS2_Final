@@ -1,0 +1,38 @@
+.wiki-page {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .wiki-page h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .wiki-page img {
+    width: 60%;
+    /* height: 500px; */
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+  
+  .wiki-page p {
+
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .wiki-page {
+      width: 90%;
+      height: auto;
+    }
+  
+    .wiki-page img {
+      height: 200px;
+    }
+  }
+  

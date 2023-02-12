@@ -1,0 +1,61 @@
+.app__navbar-logo{
+
+  align-items: center;
+  padding: 2%;
+}
+.app__navbar-logo img {
+  width: 50px;
+  height: 50px;
+  /* border-radius: 50%; */
+}
+
+.app__navbar-login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 8px;
+}
+
+img {
+  margin-top: 25px;
+}
+
+.logopng {
+  padding: 0;
+  margin: 0;
+}
+
+#flex {
+  flex: 1 0 auto;
+}
+
+.app__navbar-login div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__navbar-login p {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.app__navbar-login button {
+  background-color: #2196f3;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 11px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.app__navbar-login button:hover {
+  background-color: #1769aa;
+  color: black;
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+  
+}

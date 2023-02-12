@@ -1,0 +1,12 @@
+.readmorebtn {
+  color: #0f0f0f;
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.readmorebtn:hover {
+  color: #2196f3;
+  transition: all ease 0.3s;
+}
